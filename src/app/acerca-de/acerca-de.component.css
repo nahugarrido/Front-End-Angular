@@ -1,0 +1,24 @@
+#aboutme {
+  scroll-margin-top: 90px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+}
+
+.profile-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.profile-text {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.acerca-text {
+  padding-top: 20px;
+}

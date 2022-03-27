@@ -1,0 +1,15 @@
+#skills {
+  scroll-margin-top: 90px;
+}
+
+.skills-container {
+  background-color: ghostwhite;
+  width: 224px;
+  height: 248px;
+}
+
+.skills-graph {
+  background-color: azure;
+  width: 160px;
+  height: 160px;
+}
