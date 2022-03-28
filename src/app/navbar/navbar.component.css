@@ -23,6 +23,7 @@ header {
   width: 96px;
   height: 32px;
   background-color: #212529;
+  margin-right: 3px;
 }
 nav ul {
   margin-bottom: 0px;

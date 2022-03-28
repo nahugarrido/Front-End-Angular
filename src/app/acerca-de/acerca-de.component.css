@@ -3,8 +3,6 @@
 }
 
 .profile-container {
-  display: flex;
-  align-items: center;
   width: 175px;
   height: 175px;
 }
