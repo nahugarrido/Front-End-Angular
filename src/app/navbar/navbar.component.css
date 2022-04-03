@@ -21,7 +21,6 @@ header {
 
 .logo_argprograma {
   width: 96px;
-  height: 32px;
   background-color: #212529;
   margin-right: 3px;
 }
@@ -44,4 +43,3 @@ rect {
   opacity: 0;
 }
 
-/* https://getbootstrap.com/docs/4.0/examples/navbar-fixed/? */

@@ -1,10 +1,10 @@
 #aboutme {
-  scroll-margin-top: 90px;
+  scroll-margin-top: 85px;
 }
 
 .profile-container {
   width: 175px;
-  height: 175px;
+  height: 100%;
 }
 
 .profile-img {

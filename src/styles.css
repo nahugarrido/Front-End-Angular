@@ -1,6 +1,13 @@
 body {
   background-color: ghostwhite;
   padding-top: 90px;
+
+}
+
+/* Setea un minimo de tamaño y de esta forma los iconos de la navbar no colapsan al usar pantallas pequeñas */
+html, body {
+  min-width: 370px;
+  width: auto;
 }
 
 .bold {
@@ -32,3 +39,12 @@ body {
   max-height: 100%;
   vertical-align: middle;
 }
+
+/* Solucionar problema modal abierto desaparecia scroll bar */
+.modal-open {
+  padding-right: 0 !important;
+}
+html {
+  overflow-y: scroll !important;
+}
+

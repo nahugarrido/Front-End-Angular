@@ -4,9 +4,14 @@
   align-items: center;
 }
 
-#img-banner-container {
+/* #img-banner-container {
   width: 670px;
   height: 558px;
+} */
+
+#img-banner-container {
+  width: 670px;
+  height: 100%;
 }
 
 #banner {
