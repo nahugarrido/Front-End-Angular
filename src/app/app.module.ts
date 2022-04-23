@@ -11,7 +11,6 @@ import { EducacionComponent } from './educacion/educacion.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ContactoComponent } from './contacto/contacto.component';
-import { ModalComponent } from './modal/modal.component';
 import { ModalesComponent } from './modales/modales.component';
 
 @NgModule({
@@ -26,7 +25,6 @@ import { ModalesComponent } from './modales/modales.component';
     HabilidadesComponent,
     ProyectosComponent,
     ContactoComponent,
-    ModalComponent,
     ModalesComponent
   ],
   imports: [
