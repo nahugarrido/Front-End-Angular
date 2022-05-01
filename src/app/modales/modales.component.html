@@ -439,3 +439,89 @@
     </div>
   </div>
 </div>
+
+<!--modal editar (proyectos)-->
+<div
+  class="modal fade"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  tabindex="-1"
+  id="editProjectModal"
+>
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Editar: Proyecto</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Cerrar"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <div class="elemento">
+            <label for="nameImput" class="form-label">Nombre:</label>
+            <input
+              type="text"
+              placeholder="Portfolio Argentina Programa"
+              aria-label="nombre proyecto"
+              class="form-control"
+            />
+          </div>
+          <div class="elemento">
+            <label for="nameImput" class="form-label">Fecha:</label>
+            <input
+              type="text"
+              placeholder="Marzo 2022"
+              aria-label="fecha proyecto"
+              class="form-control"
+            />
+          </div>
+          <div class="elemento">
+            <label for="nameImput" class="form-label">Descripción</label>
+            <textarea
+              id="#"
+              rows="3"
+              class="form-control"
+              placeholder="Proyecto desarrollado a lo largo de 8 meses utilizando diversas tecnologias y herramientas."
+            ></textarea>
+          </div>
+          <div class="elemento">
+            <label for="nameImput" class="form-label">Live code:</label>
+            <input
+              type="text"
+              placeholder="Enlace a proyecto en vivo"
+              aria-label="live code url"
+              class="form-control"
+            />
+          </div>
+          <div class="elemento">
+            <label for="nameImput" class="form-label">Source code:</label>
+            <input
+              type="text"
+              placeholder="Enlace a codigo en github"
+              aria-label="source code url"
+              class="form-control"
+            />
+          </div>
+          <div class="elemento">
+            <label for="nameImput" class="form-label">Imagen:</label>
+            <input type="file" id="#" class="form-control" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-outline-primary me-2"
+          data-bs-dismiss="modal"
+        >
+          Cancelar
+        </button>
+        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
