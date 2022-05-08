@@ -12,6 +12,7 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ModalesComponent } from './modales/modales.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ModalesComponent } from './modales/modales.component';
     HabilidadesComponent,
     ProyectosComponent,
     ContactoComponent,
-    ModalesComponent
+    ModalesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
